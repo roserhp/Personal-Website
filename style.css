@@ -1,0 +1,173 @@
+/*MY FIRST COLORS: dark grey (taken): #404040; yellowish very light grey (taken) #e6e6dc; dark green (taken) #558e55;  maroon: #510000; /*very light grey: #f2f2f2; /*blueish: #dcdce6*/
+
+/*ARCTIC PALETTE: very dark grey: #433c42; medium grey: #858485; light grey: #d1d1d9; very light yellowish grey: #f6f0ef; very light grey, a bit greenish: #ededed;  */
+
+body
+{
+	background-color: 	#FFFFFF; /*#e6e6dc;*/
+	font-family: system-ui;
+	color: #433c42; /*#404040;*/ 
+	margin: 0;
+	font-size: 110%;
+	padding: 0;
+}
+
+div.navi {
+    width: 20%;
+    height: 100%; /* Full height */
+    font-size: 100%;
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    background-color: #24757B; /*#404040;*/ 
+    color: #f6f0ef; /*#e6e6dc;*/
+    text-align: center;
+    padding-top: 2%;
+}
+
+div.navi ul {
+    list-style-type: none;    
+    /*background-color: #24757B;*/
+    margin: 0;
+    padding: 0;
+    margin-top: 20%;
+    font-size: 100%;
+    line-height: 180%
+}
+
+div.navi ul ul{
+	margin-top: 0%;
+	 font-size: 61%;
+    line-height: 120%
+}
+
+div.navi li a {
+    display: block;	
+    /*padding: 8px 16px;*/
+    text-decoration: none;
+    color: #e6e6dc;
+}
+
+div.navi li a:hover { /*OPTION  :not(.active)*/
+    background-color: #858485;  /* #558e55;*/
+    color: #ededed; /*white;*/
+}
+
+div.content {
+	position: absolute;
+	top: 0%;
+	width: 80%;
+	padding: 0%;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	/*padding-top: 0%; <-- shifts menu down by 2% in firefox and google chrome*/
+	/*padding-left: 2%;*/	
+	margin-left:20%;
+	font-size: 110%;
+	
+}
+
+div.content ol {
+	width: 90%;
+	padding-left:5%;
+}
+
+div.content ul {
+	width: 90%;
+	padding-left:4%;
+}
+
+div.content table {
+	width: 90%;
+	padding-left:2%;
+}
+
+div.content.left
+{
+}
+
+div.content.right {
+ 	margin-left: 55%;
+}
+
+div.content.broad
+{
+	width: 100%;
+	margin-left:0%;
+}
+
+div.content h2 {
+	padding-left: 10%;
+}
+
+div.content h3 {
+	padding-left: 10%;
+}
+
+
+div.content h4 {
+	padding-left: 10%;
+}
+
+div.content table {
+	font-size: 85%;
+}
+
+div.content a {
+	color: #24757B; /*#558e55;*/ 
+	/*ALTERNATIVEtext-decoration: none;*/
+	 text-decoration: underline; 
+	/*font-weight: bold;*/
+	font-weight: normal;
+}
+
+div.content a:hover {
+	/*	ALTERNATIVE text-decoration: underline;*/
+	text-decoration: none;
+	background-color: #d1d1d9; /*#858485; #558e55;*/
+   color: #433c42; /*#ededed; white;*/ 
+}
+
+div.content p {
+	padding-left: 2%;
+	padding-right: 5%;
+}
+
+div.content p.left {
+	width: 50%;
+}
+
+div.content p.center {
+	text-align: center;
+}
+
+div.content a {
+
+}
+
+div.content span.code {
+	font-family: Courier;
+	font-weight: bold;
+	font-size: 115%;
+}
+
+div.content span.code.execute {
+	color: #009100;
+}
+
+div.content span.alert {
+	color: red;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+div.content span.purple {
+	color: purple;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+div.content span.cancelled {
+	color: black;
+	font-weight: normal;
+	text-decoration: line-through;
+}
