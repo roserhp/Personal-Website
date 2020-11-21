@@ -5,11 +5,12 @@
 body
 {
 	background-color: 	#FFFFFF; /*#e6e6dc;*/
-	font-family: system-ui;
+	font-family: Palatino, serif;
 	color: #433c42; /*#404040;*/ 
 	margin: 0;
-	font-size: 110%;
+	font-size: 16px;
 	padding: 0;
+        line-height: 1.75em;
 }
 
 div.navi {
@@ -45,6 +46,8 @@ div.navi li a {
     /*padding: 8px 16px;*/
     text-decoration: none;
     color: #e6e6dc;
+    font-size: larger;
+    line-height: 3em;
 }
 
 div.navi li a:hover { /*OPTION  :not(.active)*/
@@ -134,6 +137,7 @@ div.content p {
 
 div.content p.left {
 	width: 50%;
+	line-height: 1em;
 }
 
 div.content p.center {
@@ -145,7 +149,7 @@ div.content a {
 }
 
 div.content span.code {
-	font-family: Courier;
+	font-family: verdana, sans-serif;
 	font-weight: bold;
 	font-size: 115%;
 }
